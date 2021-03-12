@@ -1,3 +1,46 @@
 .personal-info h1 {
   color: #62ff33;
 }
+
+.show-img img {
+  display: block;
+  width: 30%;
+  margin: 0 auto 2rem;
+}
+
+#corporations-info table td,
+th {
+  text-align: center;
+}
+
+#corporations-info td:first-child,
+tbody th:first-child {
+  text-align: left;
+}
+
+#corporations-info table,
+th,
+td {
+  border: 2px solid;
+  border-collapse: collapse;
+}
+
+#corporations-info table colgroup .left-col {
+  text-align: left;
+}
+
+form[name="userForm"] label {
+  display: inline-block;
+  width: 5rem;
+  text-align: right;
+}
+
+form[name="userForm"] .btn-control {
+  padding-left: 5rem;
+  margin-top: 1rem;
+}
+
+form[name="register"] label {
+  display: inline-block;
+  width: 5rem;
+}
