@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Registration Form</h1>
+        <form action="registrationForm.html" method="POST" name="register">
+            <div class="group-control">
+                <label for="fname">User Name:</label>
+                <input type="text" id="fname" value=""/>
+            </div>
+            <div class="group-control">
+                <label for="fpassword">Password:</label>
+                <input type="password" id="fpassword" value="" />
+            </div>
+            <div class="group-control">
+                <span>Where did you hear about us?</span>
+                <select>
+                    <option value="choose">--Please choose--</option>
+                    <option value="searchEngine">Search Engine</option>
+                    <option value="social">Social media</option>
+                    <option value="socialPost">A post from a friend on social media</option>
+                    <option value="googleAds">Google Ads</option>
+                    <option value="email">Email</option>
+                  </select>
+            </div>
+            <div class="group-control">
+                <span>Gender:</span>                
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>            
+            <div class="group-control">
+                <span>Comments:</span><br/>                
+                <textarea rows="4" cols="50"></textarea>
+            </div>             
+            <div class="group-control">
+                <span>Click to accept our terms:</span> 
+                <input type="checkbox" name="acceptTerms" value="Yes">
+            </div>            
+            <div class="group-control btn-control">
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </div> 
+        </form>
+    </div>
+</body>
+</html>
